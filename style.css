@@ -127,6 +127,16 @@ main :not(.contacts) ul {
     margin-right: 90px; 
     margin-left:90px;
   }
+
+  a {
+    color: #c54b88; 
+  }
   
-  
-  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 0.8rem;
+    color: #ffc8e3;
+    background-color: #140f11;
+  }
