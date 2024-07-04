@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Kanit";
-    src: url("assets/fonts/Kanit-Regular.ttf");
+    src: url("assets/fonts/Kanit/Kanit-Regular.ttf");
     font-weight: 400;
   }
   @font-face {
     font-family: "Kanit";
-    src: url("assets/fonts/Kanit-Light.ttf");
+    src: url("assets/fonts/Kanit/Kanit-Light.ttf");
     font-weight: 300;
   }
 
