@@ -1,1 +1,1 @@
-# rsschool-cv
+https://mvasille.github.io/rsschool-cv/

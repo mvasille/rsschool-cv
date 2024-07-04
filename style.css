@@ -1,0 +1,146 @@
+@font-face {
+    font-family: "Kanit";
+    src: url("assets/fonts/Kanit/Kanit-Regular.ttf");
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: "Kanit";
+    src: url("assets/fonts/Kanit/Kanit-Light.ttf");
+    font-weight: 300;
+  }
+
+  body {
+    box-sizing: border-box;
+    background-color: #fff3f3;
+  }
+
+  .container-centered {
+    max-width: 1440px;
+    margin: 10px auto;
+    font-family: 'Kanit';
+    font-size: 17px;
+    line-height: 2;
+    background-color: #ffe5ec;
+  }
+
+  .two-columns {
+    display: flex;
+  }
+  
+  .left-column {
+    width: 42%;
+  }
+
+  .right-column {
+    background-color: #ffcbda;
+    width: 58%;
+  }
+
+  header {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header img {
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: #ffffff
+  }
+
+  header h1 {
+    margin-bottom: -15px;
+    font-weight: 600;
+    line-height: 1.1;
+    letter-spacing: 4px;
+    text-transform:uppercase;
+  }
+
+    h2 {
+    margin-bottom: 10px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-align: center;
+  }
+
+  .divider{
+    border: none; 
+    border-bottom: 2px solid #000; 
+    margin: 20px auto; 
+  }
+  .nav-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none
+  }
+
+  .nav-item {
+    margin: 5px; 
+}
+
+.nav-link {
+    transition: 0.3s;
+    font-size: 15px;
+    color: #c54b88; 
+}
+
+main {
+    padding: 0 40px;
+    font-size: 18px
+  }
+
+main .contacts h2 {
+    transform: translate(0, -50%);
+}
+
+main ul {
+    list-style-type: disc;
+    margin-left: 50px;
+  }
+
+  .language-name {
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .right-column .sub-header {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+
+  .right-column p {
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #860b49;
+  }
+
+  pre {
+    background-color: #fff3f9; 
+    border-radius: 5px; 
+    padding-left: 60px; 
+    font-family: monospace; 
+    font-size: 14px; 
+    line-height: 1.4; 
+    white-space: pre-wrap; 
+    margin-right: 90px; 
+    margin-left:90px;
+  }
+
+  a {
+    color: #c54b88; 
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: #ffc8e3;
+    background-color: #1f1619;
+  }
+
+  footer a{
+    color: #ffc8e3;
+    text-decoration: none;
+  }
