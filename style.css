@@ -43,6 +43,7 @@
   
   header img {
     margin-bottom: 5px;
+    border-radius: 5px;
     border: #ffffff
   }
 
@@ -114,3 +115,18 @@ main :not(.contacts) ul {
     margin-right: 50px;
     color: #860b49;
   }
+
+  pre {
+    background-color: #fff3f9; 
+    border-radius: 5px; 
+    padding-left: 60px; 
+    font-family: monospace; 
+    font-size: 14px; 
+    line-height: 1.4; 
+    white-space: pre-wrap; 
+    margin-right: 90px; 
+    margin-left:90px;
+  }
+  
+  
+  
