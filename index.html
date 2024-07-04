@@ -3,8 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Maria Vasilkovskaya</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
 </head>
 <body>
+    <div class="container-centered">
+        <div class="two-columns">
+            <div class="left-column">
+                <header class = "header">
+                    <img src="./assets/img/photo.png" alt="photo" width="300">
+                    <h1>Maria Vasilkovskaya</h1>
+                    <h2>Junior Frontend Developer</h2>
+                    <hr class="divider">
+                    <nav class="nav">
+                        <ul class="nav-list">
+                          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                          <li class="nav-item"><a href="#aboutme" class="nav-link">About me</a></li>
+                          <li class="nav-item"><a href="#coding" class="nav-link">Coding</a></li>
+                          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                        </ul>
+                      </nav>
+                      <hr class="divider">
+                </header>
+                <main class = "main">
+                    <section id="contacts" class="contacts">
+                        <h2>Contacts</h2>
+                        <ul>
+                            <li>@mvasille</li>
+                            <li>Maria (@mvasille)</li>
+                            <li>mashavasilkovska@gmail.com</li>
+                        </ul>
+                    </section>
+                    <section id="skills">
+                        <h2>Skills</h2>
+                        <ul>
+                            <li>Python</li>
+                            <li>C++</li>
+                            <li>Java Basics</li>
+                            <li>HTML, CSS Basics</li>
+                            <li>Git, Github</li>
+                            <li>Pycharm, VS Code, IntelliJ IDEA</li>
+                        </ul>
+                    </section>
+                    <section id="languages" class="languages">
+                        <h2>Languages</h2>
+                        <ul>
+                            <li><p class="language-name">English</p>
+                                <p>Intermediate</p>
+                            </li>
+                            <li><p class="language-name">Russian</p>
+                                <p>Native</p>
+                            </li>
+                            <li><p class="language-name">French</p>
+                                <p>Basics</p>
+                            </li>
+                        </ul>
+                    </section>
+                </main>
+            </div>
+            <aside class="right-column">
+                <section id="aboutme" class="About-Me">
+                    <div class="sub-header">
+                        <h2>About me</h2>
+                    </div>
+                    <p>I am 20 years old and I am a student of RTU MIREA majoring in software engineering. 
+                        Striving to improve my programming skills and knowledge.</p>
+                </section>
+                <section id="coding" class="Coding">
+                    <div class="sub-header">
+                        <h2>Coding</h2>
+                    </div>
+                    <p>Is this a triangle Kata from Codewars:</p>
+                    <p>Implement a function that accepts 3 integer values a, b, c. The function should return true if a triangle can be built with the sides of given length and false in any other case.</p>
+                    <pre>   function isTriangle(a, b, c) 
+                    {
+                        if (a + b > c && a + c > b && b + c > a) {
+                        return true; 
+                        } else {
+                        return false; 
+                        }
+                    }</pre>
+                </section>
+                <section id="experience" class="Experience">
+                    <div class="sub-header">
+                        <h2>Experience</h2>
+                    </div>
+                    <p>Participated in the development of a simple <a href="https://github.com/cordemeo/thecatbot/blob/main/bot.py">Telegram bot</a> as a class project in my first year at university.</p>
+                    <p>Created my own <a href="https://mvasille.github.io/rsschool-cv/cv">CV</a> as an assignment from an rs-school course.</p>
+                </section>
+                <section id="education" class="Education">
+                    <div class="sub-header">
+                        <h2>Education</h2>
+                    </div>
+                    <p>RTU MIREA Software Engineering (2022-2026)</p>
+                </section>
+            </aside>
+        </div>
+        <footer class = "footer">
+            <a class="github" href="https://github.com/mvasille">
+                <p>Visit my GitHub</p>
+            </a>
+            <p>2024</p>
+            <a href="https://rs.school/courses/javascript-ru">
+                <img src="./assets/rs-school-logo.svg" alt="RsSchool Icon" width="125">
+            </a>
+            
+        </footer>
+    </div>
 </body>
 </html>
