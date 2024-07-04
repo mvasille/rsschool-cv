@@ -136,7 +136,11 @@ main :not(.contacts) ul {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    font-size: 0.8rem;
     color: #ffc8e3;
     background-color: #140f11;
+  }
+
+  footer a{
+    color: #ffc8e3;
+    text-decoration: none;
   }
