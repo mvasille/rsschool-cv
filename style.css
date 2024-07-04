@@ -94,7 +94,7 @@ main .contacts h2 {
     transform: translate(0, -50%);
 }
 
-main :not(.contacts) ul {
+main ul {
     list-style-type: disc;
     margin-left: 50px;
   }
