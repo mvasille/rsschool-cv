@@ -10,8 +10,34 @@
   }
 
   body {
-    border: 1px solid red;
+    box-sizing: border-box;
+    background-color: #fff3f3;
+  }
+
+  .container-centered {
+    margin: 10px auto;
+    width: 1024px;
+    background-color: #ffe5ec;
+  }
+
+  .two-columns {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  }
+  
+  .left-column {
+    width: 42%;
+  }
+
+  .right-column {
+    width: 58%;
+  }
+
+  header {
+    padding: 30px;
+    text-align: center;
+  }
+  
+  header img {
+    margin-bottom: 10px;
+    border: #ffffff
   }
