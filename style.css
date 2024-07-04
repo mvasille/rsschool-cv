@@ -16,6 +16,7 @@
 
   .container-centered {
     max-width: 1440px;
+    margin: 10px auto;
     font-family: 'Kanit';
     font-size: 14px;
     line-height: 1.5;
@@ -77,6 +78,7 @@
 }
 
 .nav-link {
+    transition: 0.3s;
     font-size: 15px;
     color: #c54b88; 
 }
