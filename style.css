@@ -15,8 +15,7 @@
   }
 
   .container-centered {
-    width: 1024px;
-    margin: 10px auto;
+    max-width: 1440px;
     font-family: 'Kanit';
     font-size: 14px;
     line-height: 1.5;
@@ -36,7 +35,7 @@
   }
 
   header {
-    padding: 30px;
+    padding: 20px;
     text-align: center;
   }
   
@@ -58,3 +57,25 @@
     font-weight: 400;
     letter-spacing: 4px;
   }
+
+  .divider{
+    border: none; 
+    border-bottom: 2px solid #000; 
+    margin: 20px auto; 
+  }
+  .nav-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none
+  }
+
+  .nav-item {
+    margin: 5px; 
+}
+
+.nav-link {
+    font-size: 15px;
+    color: #c54b88; 
+}
